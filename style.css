@@ -49,6 +49,12 @@ th, td {
   text-align: center;
   font-weight: normal; 
 }
+th {
+    background-color: #004080;
+    color: white;
+    font-weight: bold; /* دي هي رقم 3 اللي بنتكلم عنها */
+    padding: 12px;
+}
 
 tr:hover {
   background-color: #f2f2f2;
@@ -86,10 +92,9 @@ footer {
   background-color: #004080;
   color: white;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
+  padding: 15px
   width: 100%;
+  margin-top: 30px;
 }
 
 @media (max-width: 600px) {
